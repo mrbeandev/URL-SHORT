@@ -4,8 +4,13 @@ session_start();
 // Configuration
 $base_url = "https://sh.mrbean.dev/"; // Replace with your domain
 $json_file = "urls.json";
-$recaptcha_secret_key = "6LeGVDoqAAAAANihT8BXwmSPra2MZetxSWhybTdh"; // Replace with your reCAPTCHA secret key
-$recaptcha_site_key = "6LeGVDoqAAAAAHhtHWt3tUFbz-1mvbj0eG3A5BmZ"; // Replace with your reCAPTCHA site key
+$recaptcha_secret_key = "xxxx"; // Replace with your reCAPTCHA secret key
+$recaptcha_site_key = "xxxxx"; // Replace with your reCAPTCHA site key
+
+// CORS headers
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
 
 // Helper functions
 function generate_short_code() {
