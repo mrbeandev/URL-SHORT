@@ -2,6 +2,8 @@
 
 A sleek, efficient, and user-friendly URL shortener with a minimalist design and enhanced security features.
 #### Live Demo : [sh.mrbean.dev](https://sh.mrbean.dev)
+![image](https://github.com/user-attachments/assets/81310c3d-6888-4e14-9940-137b2af16d9f)
+
 ## Features
 
 - **Clean, Minimalist UI**: A modern, responsive design that works well on all devices.
